@@ -1,6 +1,6 @@
 def undertale(num):
     if num == 1:
-        return'''<!DOCTYPE html>
+        return'''\n\n<!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="recipes.css">
