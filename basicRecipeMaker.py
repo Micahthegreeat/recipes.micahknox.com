@@ -9,7 +9,7 @@ def undertale(num):
     <title>Document</title>
 </head>
 <body>
-    <a href = index.html.
+    <a href = index.html.>
     <!--title-->
     <h1>'''
     if num == 2:
