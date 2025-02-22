@@ -9,6 +9,7 @@ def undertale(num):
     <title>Document</title>
 </head>
 <body>
+    <a href = index.html.
     <!--title-->
     <h1>'''
     if num == 2:
@@ -18,6 +19,7 @@ def undertale(num):
         return '''" alt = "Picture of '''
     if num == 4:
         return '''" class = mainPicture>
+    </a>
     <!--ingredients-->
     <table  class = ingredients>
         <tr>
@@ -30,7 +32,6 @@ def undertale(num):
     <!--instructions-->'''
     if num == 6:
         return '''
-
 </body>
 </html>'''
 
@@ -75,7 +76,25 @@ def main():
     currentString += undertale(5)
     currentString += steps()
     currentString += undertale(6)
+    print()
+    print()
     print(currentString)
+    print()
+    print()
+    filename = input("name of the file the previous code will be")
+
+    print("for in the main with the other\n\n")
+    print(f'''
+    <a href = {filename}>
+        <table>
+            <tr>
+                <th>{recipeName}</th>
+            </tr>
+            <tr>
+                <td><img src = "images/{picture}" alt = "Picture of {recipeName}" width = "300 px"></td>
+            </tr>
+        </table>
+    </a>''')
 
     
 
