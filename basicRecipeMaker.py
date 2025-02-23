@@ -81,7 +81,12 @@ def main():
     print(currentString)
     print()
     print()
-    filename = input("name of the file the previous code will be")
+    filename = ''
+    while filename == '':
+        try:
+            filename = input("\nput the code that was just outputted in a file. Name it something and end that with .html What did you name it(ex. cookieDough.html)")
+        except:
+            pass
 
     print("for in the main with the other\n\n")
     print(f'''
