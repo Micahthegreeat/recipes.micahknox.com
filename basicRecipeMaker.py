@@ -34,7 +34,7 @@ def undertale(num):
     <link rel="icon" type="image/x-icon" href="/images/micah.png">
 </head>
 <body>
-    <a href = index.html.>
+    <a href = index.html>
     <!--title-->
     <h1>'''
 
