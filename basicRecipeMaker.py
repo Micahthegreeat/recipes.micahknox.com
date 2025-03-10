@@ -6,12 +6,7 @@ def undertale(num):
     <link rel="stylesheet" href="recipes.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <a href = index.html.>
-    <!--title-->
-    <h1>'''
+    <title>'''
     if num == 2:
         return'''</h1>
     <img src = "images/'''
@@ -34,6 +29,14 @@ def undertale(num):
         return '''
 </body>
 </html>'''
+    if num == 7:
+        return '''</title>
+    <link rel="icon" type="image/x-icon" href="/images/micah.png">
+</head>
+<body>
+    <a href = index.html.>
+    <!--title-->
+    <h1>'''
 
 def ingridents():
     print("List the ingredients and the amount. When you are out of ingredients type \"end\".")
@@ -67,24 +70,24 @@ def steps():
         i += 1
         
 def main():
-    currentString = undertale(1)
+    currentString = undertale(1) # initilizing the string that will contain the entire file
     recipeName = input("what is the name of the Recipe that you are trying to make (ex. Cookie Dough): ")
-    currentString += recipeName + undertale(2)
+    currentString += recipeName + undertale(7) + recipeName + undertale(2) # adding header
     picture = input("what is filename of the picture. You will need to place this picture in the images folder.(ex. cookieDough.jpg): ")
-    currentString += picture + undertale(3) + recipeName + undertale(4)
-    currentString += ingridents()
-    currentString += undertale(5)
-    currentString += steps()
-    currentString += undertale(6)
+    currentString += picture + undertale(3) + recipeName + undertale(4) # adding picture of item and the start if th eingrident header
+    currentString += ingridents() # adding ingridents table
+    currentString += undertale(5) # ending the ingridents table
+    currentString += steps() # the actual steps of the recipes
+    currentString += undertale(6) # the end of the file
     print()
     print()
-    print(currentString)
+    print(currentString) # printing the string
     print()
     print()
     filename = ''
     while filename == '':
         try:
-            filename = input("\nput the code that was just outputted in a file. Name it something and end that with .html What did you name it(ex. cookieDough.html)")
+            filename = input("\nput the code that was just outputted in a file. Name it something and end that with .html What did you name it(ex. cookieDough.html): ")
         except:
             pass
 
