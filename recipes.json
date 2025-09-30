@@ -1,0 +1,20 @@
+{
+  "hashbrowns": {
+    "title": "hashbrowns",
+    "image": "images/hashbrowns.jpg",
+    "ingredients": [
+      { "item": "butter", "amount": "1/4 stick" },
+      { "item": "american cheese", "amount": "7 slices" },
+      { "item": "hashbrown box", "amount": "1" },
+      { "item": "vegetable oil", "amount": "enough to coat bottom of the pan" },
+      { "item": "trail dust", "amount": "depends on size of pan" }
+    ],
+    "steps": [
+      "Put hot water in the hashbrown box for 8 and a half minutes. Meanwhile coat the bottom of the pan with vegetable oil. Heat the pan up to about halfway on the stovetop.",
+      "Strain the water out of the hashbrowns. Then spread them evenly across the preheated pan. Cook them for about 5 minutes or until you can smell them cooking. Meanwhile start the broiler.",
+      "Put the pan in the oven for 5 minutes. Then rotate it 180 degrees and leave it like that for 2.5 minutes. Don't let it burn.",
+      "Turn off the broiler. Put 5 equally sliced chips of butter on the pan. Then 5 slices of cheese. Put on 3 shakes of trail dust. Then put the pan back in the oven until the cheese is melted.",
+      "Then put it on a plate. Fold it in half so the cheese from the last step is on the inside. Then put the last 2 slices on top, and microwave it for 15 seconds."
+    ]
+  }
+}
