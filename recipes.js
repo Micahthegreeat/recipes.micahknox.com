@@ -16,14 +16,24 @@ fetch('recipes.json')
     const title = document.getElementById("recipe-title");
     title.textContent = `${data[recipeName].title}`;
 
-    // const pic = document.getElementById("picture");
-    // pic.src = `${data[recipeName].image}`;
+    //image
+    const pic = document.getElementById("recipe-image");
+    console.log(data[recipeName].image);
+    pic.src = data[recipeName].image;
+
+    //RecipeDonatedBy
+    //title)
+    if ("by" in data[recipeName]){
+        const RecipeBy = document.getElementById("recipeBy");
+        RecipeBy.textContent = `Recipe donated by: ${data[recipeName].by}`;
+    }     
     
     //ingredients
     const ingredientsList = document.getElementById("ingredients-table");
     ["Ingredient","Amount"].forEach(text => {
     const th = document.createElement("th");
     th.textContent = text;
+    th.className = "top";
     ingredientsList.appendChild(th);
     });
     data[recipeName].ingredients.forEach(ingredient => {
@@ -39,6 +49,22 @@ fetch('recipes.json')
     
 
     ingredientsList.appendChild(row);    
+    });
+
+    //steps
+    let n = 1;
+    const stepsList = document.getElementById("steps");
+    data[recipeName].steps.forEach(text => {
+
+    const stepNum = document.createElement("h2");
+    stepNum.textContent = `Step ${n}`;
+
+    const step = document.createElement("p");
+    step.textContent = text;
+    step.className = "instructions";
+    n += 1;
+    stepsList.appendChild(stepNum);
+    stepsList.appendChild(step);
     });
 
 
