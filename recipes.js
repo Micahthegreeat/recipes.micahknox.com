@@ -68,9 +68,9 @@ fetch('recipes.json')
     stepsList.appendChild(step);
     });
 
-
-    
-
+    //tab title
+    const tabTitle = document.getElementById("tab-name");
+    tabTitle.textContent = `${data[recipeName].title}`;
 
 }).catch(error => console.error('Failed to fetch data:', error)); 
 console.log(recipeName);
