@@ -1,0 +1,10 @@
+Food Name: <name-of-food>
+File where picture is: <picture.jpg (make sure this is in images file)>
+Ingredients:
+I: <ingredient>
+A: <amount>
+I: <ingredient>
+A: <amount>
+Steps:
+<Step 1>
+<Step 2>

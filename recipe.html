@@ -7,27 +7,19 @@
   <link rel="stylesheet" href="recipes.css">
 </head>
 <body>
-  <a href="index.html" id="home-link">
-    <header>
+  <header>
+    <a href="index.html" id="home-link">
       <h1 id="recipe-title">Loading…</h1>
-    </header>
+      <img id="recipe-image" class="mainPicture" alt="Recipe image" />
+    </a>
+  </header>
 
-    
+  <main>
+    <h2 id = "recipeBy"></h2>
+    <table id="ingredients-table" class="ingredients"></table>
 
-    <img id="recipe-image" class="mainPicture" alt="Recipe image" />
-  </a>
-  <h2 id = "recipeBy"></h2>
-  <table id="ingredients-table" class="ingredients"></table>
-
-  <div id="steps"></div>
-
-  <!-- Optional inline fallback JSON (see notes below)
-  <script id="recipes-data" type="application/json">
-  { "hashbrowns": { "title":"Hashbrowns", "image":"images/hashbrowns.jpg", "ingredients": [], "steps": [] } }
-  </script>
-  -->
-
-  <div id="error" style="color:crimson; font-weight:bold;"></div>
+    <div id="steps"></div>
+  </main>
 
   <script src="recipes.js"></script>
 </body>

@@ -20,6 +20,7 @@ fetch('recipes.json')
     const pic = document.getElementById("recipe-image");
     console.log(data[recipeName].image);
     pic.src = data[recipeName].image;
+    pic.alt = `Picture of ${data[recipeName].title}.`
 
     //RecipeDonatedBy
     //title)

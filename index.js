@@ -19,7 +19,7 @@ fetch('recipes.json')
         foodImage.width = 300;
         console.log(tobemultiplied * foodImage.height);
         //foodImage.height = Math.min(300, foodImage.height * tobemultiplied);
-        foodImage.alt = `Picture of ${food}`;
+        foodImage.alt = `Picture of ${data[food].title}`;
 
 
         
