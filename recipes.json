@@ -87,7 +87,7 @@
     "image": "images/mountain_dew_cake.jpg",
     "ingredients": [
       { "item": "all-purpose baking mix", "amount": "2 cups" },
-      { "item": "sugar", "amount": "1 cup" },
+      { "item": "sugar", "amount": "1/2 cup" },
       { "item": "Mountain Dew", "amount": "2/3 cup" },
       { "item": "egg", "amount": "1 large" },
       { "item": "vanilla extract", "amount": "1 teaspoon" },
