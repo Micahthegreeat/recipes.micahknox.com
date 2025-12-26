@@ -81,5 +81,24 @@
       "Mix the powders in the bag.",
       "On the trail, add water to the line on the bag. It should be about 1 cup of water."
     ]
+  },
+  "mountain_dew_cake": {
+    "title": "Mountain Dew Cake",
+    "image": "images/mountain_dew_cake.jpg",
+    "ingredients": [
+      { "item": "all-purpose baking mix", "amount": "2 cups" },
+      { "item": "sugar", "amount": "1 cup" },
+      { "item": "Mountain Dew", "amount": "2/3 cup" },
+      { "item": "egg", "amount": "1 large" },
+      { "item": "vanilla extract", "amount": "1 teaspoon" },
+      { "item": "8x8 pan", "amount": "1, lined with parchment paper" }
+    ],
+    "steps": [
+      "Preheat oven to 350°F (175°C). Line the 8x8 pan with parchment paper.",
+      "In a medium bowl, stir together the baking mix, sugar, Mountain Dew, egg, and vanilla extract until smooth and well combined.",
+      "Pour the batter into the prepared pan.",
+      "Bake for 35–40 minutes, or until a toothpick inserted in the center comes out clean.",
+      "Let cool slightly before serving."
+    ]
   }
 }
