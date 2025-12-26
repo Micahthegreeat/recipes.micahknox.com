@@ -90,11 +90,10 @@
       { "item": "sugar", "amount": "1/2 cup" },
       { "item": "Mountain Dew", "amount": "2/3 cup" },
       { "item": "egg", "amount": "1 large" },
-      { "item": "vanilla extract", "amount": "1 teaspoon" },
-      { "item": "8x8 pan", "amount": "1, lined with parchment paper" }
+      { "item": "vanilla extract", "amount": "1 teaspoon" }
     ],
     "steps": [
-      "Preheat oven to 350°F (175°C). Line the 8x8 pan with parchment paper.",
+      "Preheat oven to 350°F (175°C). Line an 8x8 pan with parchment paper.",
       "In a medium bowl, stir together the baking mix, sugar, Mountain Dew, egg, and vanilla extract until smooth and well combined.",
       "Pour the batter into the prepared pan.",
       "Bake for 35–40 minutes, or until a toothpick inserted in the center comes out clean.",
