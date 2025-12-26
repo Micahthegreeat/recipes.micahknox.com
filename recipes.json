@@ -99,5 +99,22 @@
       "Bake for 35–40 minutes, or until a toothpick inserted in the center comes out clean.",
       "Let cool slightly before serving."
     ]
+  },
+    "mountain_dew_frosting": {
+    "title": "Mountain Dew Frosting",
+    "image": "images/mountain_dew_frosting.jpg",
+    "ingredients": [
+      { "item": "butter", "amount": "1/2 cup, softened" },
+      { "item": "powdered sugar", "amount": "2 cups" },
+      { "item": "Mountain Dew", "amount": "3-4 tablespoons" },
+      { "item": "vanilla extract", "amount": "1 teaspoon" }
+    ],
+    "steps": [
+      "In a medium bowl, beat the softened butter until creamy.",
+      "Gradually add the powdered sugar, mixing well after each addition.",
+      "Add Mountain Dew 1 tablespoon at a time until the frosting reaches your desired consistency.",
+      "Mix in the vanilla extract until smooth.",
+      "Spread the frosting evenly over the cooled Mountain Dew cake."
+    ]
   }
 }
