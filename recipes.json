@@ -91,7 +91,7 @@
       { "item": "Mountain Dew", "amount": "2/3 cup" },
       { "item": "egg", "amount": "1 large" },
       { "item": "vanilla extract", "amount": "1 teaspoon" },
-      ( "item": "Green food dye", "amount": "a lot"}
+      { "item": "Green food dye", "amount": "a lot"}
     ],
     "steps": [
       "Preheat oven to 350°F (175°C). Line an 8x8 pan with parchment paper.",
