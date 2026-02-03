@@ -14,7 +14,7 @@ fetch(`${SCRIPT_ROOT}/recipes.json`)
         foodName.textContent = data[food].title;
         const imageHolder = document.createElement("td");
         const foodImage = document.createElement("img");
-        foodImage.src = data[food].image;
+        foodImage.src = SCRIPT_ROOT + '/' + data[food].image;
         console.log("lols");
         let tobemultiplied = 300 / foodImage.width
         foodImage.width = 300;
