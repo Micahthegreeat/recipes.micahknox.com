@@ -1,9 +1,10 @@
-fetch('recipes.json')
+const SCRIPT_ROOT = new URL(import.meta.url).origin;
+fetch(`${SCRIPT_ROOT}/recipes.json`)
 .then(response => response.json())
 .then(data => {
-    const foodList = document.getElementById("main");
+    const foodList = document.querySelector('main');
     //go through with the for each and make a box for each item
-    for (food in data){
+    for (let food in data){
         const link = document.createElement("a");
         link.href = `recipe.html?recipe=${food}`;
         const tbl = document.createElement("table");
