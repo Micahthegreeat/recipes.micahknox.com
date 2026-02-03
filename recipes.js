@@ -7,9 +7,8 @@ const params = new URLSearchParams(queryString);
 // Get a specific query parameter by name
 const recipeName = params.get('recipe');
 
-
-
-fetch('recipes.json')
+const SCRIPT_ROOT = new URL(import.meta.url).origin;
+fetch(`${SCRIPT_ROOT}/recipes.json`)
 .then(response => response.json())
 .then(data => {
     //title
